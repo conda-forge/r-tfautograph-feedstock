@@ -1,4 +1,4 @@
-{% set version = '0.3.1' %}
+{% set version = "0.3.2" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,10 +10,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/tfautograph_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/tfautograph/tfautograph_{{ version }}.tar.gz
-  sha256: 16f3a7982ab0804535eea1f51dba6983a6f608e8dff2093f7cc13c30c6def7b9
+  sha256: 42821583679d32fa4abb4304b6831e8c3b4dce9468e1a3b570af7bf95ec0aa3a
 
 build:
-  merge_build_host: True  # [win]
+  merge_build_host: true  # [win]
   number: 0
   noarch: generic
   rpaths:
