@@ -14,7 +14,7 @@ source:
 
 build:
   merge_build_host: true  # [win]
-  number: 0
+  number: 1
   noarch: generic
   rpaths:
     - lib/R/lib/
@@ -27,10 +27,11 @@ requirements:
   host:
     - r-base
     - r-reticulate
+    - r-backports
   run:
     - r-base
     - r-reticulate
-
+    - r-backports
 test:
   commands:
     - $R -e "library('tfautograph')"           # [not win]
