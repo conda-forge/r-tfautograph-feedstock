@@ -1,11 +1,11 @@
-About r-tfautograph
-===================
+About r-tfautograph-feedstock
+=============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-tfautograph-feedstock/blob/main/LICENSE.txt)
 
 Home: https://t-kalinowski.github.io/tfautograph/
 
 Package license: GPL-3.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-tfautograph-feedstock/blob/main/LICENSE.txt)
 
 Summary: Translate R control flow expressions into 'Tensorflow' graphs.
 
